@@ -1,6 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # code here
-   binding.pry
+  # binding.pry
   data[season].each do |people|
      people.each do |k,v|
         if v == "Winner"
